@@ -1,4 +1,4 @@
-package ru.cian.ml.presto.listener.kafkamitter.serialization;
+package com.asurion.eds.presto.listener.kafkamitter.serialization;
 
 import com.fasterxml.jackson.annotation.JsonUnwrapped;
 

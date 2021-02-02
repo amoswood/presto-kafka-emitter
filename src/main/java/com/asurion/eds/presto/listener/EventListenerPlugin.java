@@ -1,8 +1,8 @@
-package ru.cian.ml.presto.listener;
+package com.asurion.eds.presto.listener;
 
-import com.facebook.presto.spi.Plugin;
-import com.facebook.presto.spi.eventlistener.EventListenerFactory;
-import ru.cian.ml.presto.listener.kafkamitter.PrestoEventsKafkaEmitterFactory;
+import com.asurion.eds.presto.listener.kafkamitter.PrestoEventsKafkaEmitterFactory;
+import io.prestosql.spi.Plugin;
+import io.prestosql.spi.eventlistener.EventListenerFactory;
 
 import java.util.Collections;
 

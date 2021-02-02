@@ -1,4 +1,4 @@
-package ru.cian.ml.presto.listener.kafkamitter;
+package com.asurion.eds.presto.listener.kafkamitter;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 

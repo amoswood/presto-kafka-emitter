@@ -1,4 +1,4 @@
-package ru.cian.ml.presto.listener;
+package com.asurion.eds.presto.listener;
 
 import org.junit.Assert;
 import org.junit.Test;

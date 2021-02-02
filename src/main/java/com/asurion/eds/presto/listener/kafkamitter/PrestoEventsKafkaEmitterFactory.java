@@ -1,7 +1,7 @@
-package ru.cian.ml.presto.listener.kafkamitter;
+package com.asurion.eds.presto.listener.kafkamitter;
 
-import com.facebook.presto.spi.eventlistener.EventListener;
-import com.facebook.presto.spi.eventlistener.EventListenerFactory;
+import io.prestosql.spi.eventlistener.EventListener;
+import io.prestosql.spi.eventlistener.EventListenerFactory;
 
 import java.util.Map;
 
