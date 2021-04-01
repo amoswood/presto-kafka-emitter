@@ -16,7 +16,7 @@ On presto coordinator node:
 2. Create file `/etc/presto/event-listener.properties` and fill it as in the example
 ```
 event-listener.name=kafka-emitter
-kafka-emitter.kafka-topics.query-started=platform.dal.sys.presto.query-started
+kafka-emitter.kafka-topics.query-created=platform.dal.sys.presto.query-created
 kafka-emitter.kafka-topics.query-completed=platform.dal.sys.presto.query-completed
 kafka-emitter.kafka-topics.split-completed=platform.dal.sys.presto.split-completed
 kafka-emitter.kafka.bootstrap.servers=pkc-4njzv.us-east-1.aws.confluent.cloud:9092
